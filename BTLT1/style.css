@@ -1,0 +1,28 @@
+.img-responsive {
+  width: 100%;
+  height: auto;
+}
+
+.navbar-nav > li {
+  padding-left: 115px;
+  padding-right: 115px;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.col-2,
+.col-10 {
+  margin-top: 20px !important;
+}
+
+.rounded {
+  width: 100%;
+  height: auto;
+}
+
+.buy-botton {
+  width: 25%;
+  height: auto;
+}
