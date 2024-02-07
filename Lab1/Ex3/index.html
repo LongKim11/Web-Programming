@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lab 1 Exercise 3</title>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td>Your name</td>
+        <td>
+          <input type="name" name="name" placeholder="Full Name" required />
+        </td>
+      </tr>
+      <tr>
+        <td>Email Address</td>
+        <td>
+          <input type="email" name="email" placeholder="Email" required />
+        </td>
+      </tr>
+      <tr>
+        <td>Birthday</td>
+        <td><input type="date" name="birthday" required /></td>
+      </tr>
+      <tr>
+        <td>Birthtime</td>
+        <td><input type="time" name="birthtime" required /></td>
+      </tr>
+      <tr>
+        <td>Gender</td>
+        <td>
+          <input type="radio" name="gender" value="Male" />Male<input
+            type="radio"
+            name="gender"
+            value="Female"
+          />Female
+        </td>
+      </tr>
+      <tr>
+        <td>From</td>
+        <td>
+          <select name="country" required>
+            <option>Select a country</option>
+            <optgroup label="Asia">
+              <option>Viet Nam</option>
+              <option>Laos</option>
+              <option>Combodia</option>
+              <option>Singapore</option>
+            </optgroup>
+            <optgroup label="Europe">
+              <option>France</option>
+              <option>Belgium</option>
+              <option>Italy</option>
+              <option>Finland</option>
+              <option>Ireland</option>
+            </optgroup>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Favorite IDE</td>
+        <td><input type="checkbox" name="favorite_ide" value="Visual Studio Code">Visual Studio Code</input> <br>
+        <input type="checkbox" name="favorite_ide" value="Sublime Text">Sublime Text</input> <br>
+        <input type="checkbox" name="favorite_ide" value="Eclipse">Eclipse</input> <br>
+        <input type="checkbox" name="favorite_ide" value="Atom">Atom</input> <br>
+        <input type="checkbox" name="favorite_ide" value="Intelij Idea">Intelij Idea</input></td> <br>
+      </tr>
+      <tr>
+        <td>TOEIC Score</td>
+        <td>
+          <input
+            type="range"
+            name="toeic"
+            min="5"
+            max="990"
+            value="5"
+            required
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>Message</td>
+        <td><textarea name="message"  cols="30" rows="10"></textarea></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><input type="submit" name="submit" value="Submit">
+        <input type="reset" name="reset" value="Reset"></td>
+      </tr> 
+    </table>
+  </body>
+</html>
